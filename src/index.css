@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+
+
+#hamburger {
+    display: none;
+}
+
+.page2-main {
+    background-image: url(components/image-src/car-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+@media screen and (max-width: 1366px) { 
+
+    /* page-1 */
+    #home-img-con {
+        width: 90%;
+    }
+    #newsletter {
+        gap: 10px;        
+    }
+    #newsletter-txt {
+        margin-left: 20px;
+    }
+    #maill {
+        height: 50px;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 12px;
+       
+    }
+    #latest-post {
+        margin-left: 20px;
+    }
+    #subscribe-btn {
+        margin-left: 20px;
+        padding: 8px 103px;
+    }
+    /* page1-end */
+
+
+    /* page2 */ 
+    #page-2-main {
+        width: 90%;
+    }
+    /* page2-end */
+
+    /* page3 */
+    #row1 {
+        width: 100%;
+    }
+    #card-page {
+        width: 400px;
+    }
+    /* page3-end */
+
+    /* page-4 */
+
+    #page4-main {
+        width: 85%;
+    }
+
+    /* page4-end */
+
+    /* page5 */
+
+    #footer-main {
+        width: 85%;
+    }
+
+    /* page5-end */
+
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+
+
+    #hamburger {
+        display: block;
+    }
+
+    #navbar {
+        height: 70px;
+        padding: 0 15px;
+        gap: 50px;
+    }
+    #link {
+        height: 330px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+        transition: .5s;
+        gap: 30px;
+        padding-top: 10px;
+        margin-top: 70px;
+        background-color: #f0ebd2;
+        color: black;
+        transition: 3s;
+        font-size: 20px;
+    }
+
+    #home-page {
+        height: auto;
+        width: fit-content;
+    }
+    #home-cont {
+        width: 90%;
+        margin: 15px 15px;
+        gap: 20px;
+    }
+    #reiro {
+        font-size: 50px;
+        
+    }
+    #stories-idea {
+        font-size: 30px;
+    }
+    #home-img-con {
+        flex-direction: column;
+    }
+    #img-left-cont {
+        flex-direction: column;
+    }
+    #img-sec {
+        height: 400px;
+        width: 100%;
+    }
+    #img-left-cont {
+        width: 100%;
+    }
+    #newsletter {
+        width: 100%;
+        margin-top: 28px;
+    }
+    #car-img {
+        width: 100%;
+    }
+    /* page1-end */
+
+   
+    /* page2 */
+
+
+    .page2 {
+        height: auto;
+    }
+
+    .page2-main {
+        width: 90% !important;
+    }
+    #card-2{
+        width: 90%;
+    }
+
+
+    /* page4 */
+    #page4-main {
+        border: none;
+        margin: 0;
+    }
+    #seller-btn {
+        display: none;
+    }
+    #page4-box {
+        width: 100%;
+    }
+    #logo-2 {
+        margin-top: 28px;
+    }
+    #minimal {
+        width: 300px;
+        padding-top: 20px;
+    }
+
+
+    /* footer */ 
+    #footer-main {
+        flex-direction: column;
+    }
+    #footer-text {
+        width: 90%;
+    }
+    #footer-btn {
+        display: none;
+    }
+    
+ }
